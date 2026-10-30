@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app04dep1-config
+  namespace: namespace-workflow-1793396200489
+  labels:
+    app.kubernetes.io/name: app04dep1
+    kubernetes.azure.com/generator: devhub
+data:
