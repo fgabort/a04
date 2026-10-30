@@ -1,0 +1,11 @@
+from time import sleep
+
+
+def add(a, b):
+    return a + b 
+
+
+if __name__ == "__main__":
+    print(add(4, 3))
+    print("Hello World")
+    sleep(3600)
